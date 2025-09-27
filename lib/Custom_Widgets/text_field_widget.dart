@@ -65,11 +65,6 @@ class TextFieldWidget extends StatelessWidget {
             hintStyle: TextStyle(
               color: hintColor ?? Colors.grey,
             ),
-            // contentPadding: EdgeInsets.symmetric(
-            //   horizontal: screenWidth * 0.04,
-            //   vertical:
-            //   isPortrait ? screenHeight * 0.015 : screenHeight * 0.025,
-            // ),
             filled: true,
             fillColor: fillColor?? Colors.white,
             border: OutlineInputBorder(
@@ -96,12 +91,6 @@ class TextFieldWidget extends StatelessWidget {
             prefixIcon: prefixIcon,
             errorStyle: TextStyle(
               color: Colors.red,
-              // fontSize: ResponsiveBreakpoints.getResponsiveValue(
-              //   context: context,
-              //   mobile: 12.0,
-              //   tablet: 14.0,
-              //   desktop: 16.0,
-              // ),
             ),
           ),
         ),
